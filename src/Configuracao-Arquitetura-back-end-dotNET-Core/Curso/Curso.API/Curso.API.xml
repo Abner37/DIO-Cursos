@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Curso.API</name>
+    </assembly>
+    <members>
+        <member name="M:Curso.API.Controllers.CursoController.Cadastrar(Curso.API.Models.Cursos.CursoViewModelInput)">
+            <summary>
+            Este serviço permite cadastrar curso para o usuário autenticado.
+            </summary>
+            <returns>Retorna status 201 e dados do curso do usuário.</returns>
+        </member>
+        <member name="M:Curso.API.Controllers.CursoController.ListarCursos">
+            <summary>
+            Este serviço permite obter todos os cursos ativos do usuário.
+            </summary>
+            <returns>Retorna status ok e dados do curso do usuário.</returns>
+        </member>
+        <member name="M:Curso.API.Controllers.UsuarioController.Logar(Curso.API.Models.Usuarios.LoginViewModelInput)">
+            <summary>
+            Este serviço permite se logar na API, para realizar requisições que necessitem de autenticação.
+            </summary>
+            <returns>Retorna status ok, dados do usuário e token para autenticação.</returns>
+        </member>
+        <member name="M:Curso.API.Controllers.UsuarioController.Cadastrar(Curso.API.Models.Usuarios.RegistroViewModelInput)">
+            <summary>
+            Este serviço permite se cadastrar na API, para efetuar login e gerenciar cursos.
+            </summary>
+            <returns>Retorna status created e dados do usuário.</returns>
+        </member>
+        <member name="M:Curso.API.Controllers.UsuarioController.AtualizarCadastro(Curso.API.Models.Usuarios.CadastroViewModel)">
+            <summary>
+            Este serviço permite atualizar o cadastro do usuário na API.
+            </summary>
+            <returns>Retorna status ok e os dados do usuário.</returns>
+        </member>
+        <member name="M:Curso.API.Controllers.UsuarioController.ExcluirCadastro">
+            <summary>
+            Este serviço permite excluir o cadastro do usuário na API.
+            </summary>
+            <returns>Retorna status ok.</returns>
+        </member>
+        <member name="M:Curso.API.Controllers.UsuarioController.ListarUsuarios">
+            <summary>
+            Este serviço permite listar os usuários cadastrados na API.
+            </summary>
+            <returns>Retorna status ok com a lista dos usuários.</returns>
+        </member>
+    </members>
+</doc>
